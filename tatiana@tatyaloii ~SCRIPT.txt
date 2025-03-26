@@ -1,0 +1,50 @@
+  GNU nano 7.2                                                                                      calculadora.sh#!/bin/bash
+
+#Mensagem de boas vindas
+
+echo "Seja bem vindo em nossa tabuada interativa"
+echo "Para começar digite o seu nome: "
+read nome
+nome=$(echo "$nome")
+echo "$nome, vamos realizar alguns cálculos?"
+echo "Vamos realizar um cálculo de soma. Digite um número para x: "
+read x
+echo "Digite um número para y: "
+read y
+resultado=$(echo "$x + $y" | bc)
+echo "A soma de x+y é: $resultado"
+echo "Muito bem, $nome, agora, vamos realizar um cálculo de subtração."
+echo "Digite um número para z: "
+read z
+echo "Agora digite um número para w: "
+read w
+resultado=$(echo "$z - $w" | bc)
+echo "A subtração de z-w é: $resultado"
+echo "$nome, agora vai ficar mais difícil. Digite um número para k para realizarmos uma multiplicação: "
+read k
+echo "Agora, um número para t: "
+read t
+resultado=$(echo "$k * $t" | bc)
+echo "A multiplicação de k*t é: $resultado"
+echo "$nome, para completar os quatro tipos de operações aritméticas, vamos encerrar com o cálculo da divisão."
+echo "Digite um número para d: "
+read d
+echo "Digite um número para s: "
+read s
+resultado=$(echo $d / $s | bc)
+echo "A divisão de d / s é: $resultado"
+echo "Encerramos por aqui, espero que tenha se divertido com a tabuada interativa" #encerrado o script
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                [ Read 37 lines ]
+^G Help          ^O Write Out     ^W Where Is      ^K Cut           ^T Execute       ^C Location      M-U Undo         M-A Set Mark     M-] To Bracket   M-Q Previous     ^B Back          ^◂ Prev Word
+^X Exit          ^R Read File     ^\ Replace       ^U Paste         ^J Justify       ^/ Go To Line    M-E Redo         M-6 Copy         ^Q Where Was     M-W Next         ^F Forward       ^▸ Next Word
