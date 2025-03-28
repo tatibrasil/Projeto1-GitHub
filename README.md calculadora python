@@ -1,0 +1,4 @@
+Para executar o scritp da calculadora em Pyhton, você utilizar o site Colab:
+https://colab.research.google.com/
+Para testar a calculadora basta abrir um novo notebook, copiar e colar os códigos.
+Esses códigos vão executar uma calculadora interativa e poderá fazer operações de soma, subtração, multiplicação e divisão.
